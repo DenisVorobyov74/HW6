@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1658629404 source:/home/denis/GitHub/HW06/Logging/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"logging.h"
+
+1658710500 /home/denis/GitHub/HW06/Logging/logging.h
+
+1658710492 source:/home/denis/GitHub/HW06/Logging/logging.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/stat.h>
+

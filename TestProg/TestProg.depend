@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1659573452 source:/home/denis/GitHub/HW06/TestProg/main.c
+	<stdio.h>
+	<stdlib.h>
+	"libLoggingLib.h"
+
+1659573427 /home/denis/GitHub/HW06/TestProg/libLoggingLib.h
+

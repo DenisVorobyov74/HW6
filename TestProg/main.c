@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "logging.h"
+#include "libLoggingLib.h"
 
 void CallSomeMethod(){
 
-    lgg_log_info("Just ERROR message", error);
+    lgg_LogErr("Just ERROR message");
 
 }
 
@@ -17,9 +17,9 @@ int main(int argc, char* argv[])
 
     lgg_LogSys_init(argv[0]);
 
-    lgg_log_info("Just INFO message",    info);
-    lgg_log_info("Just DEBUG message",   debug);
-    lgg_log_info("Just WARNING message", warning);
+    lgg_LogInfo("Just INFO message");
+    lgg_LogDbg ("Just DEBUG message");
+    lgg_LogWrng("Just WARNING message");
 
     CallSomeMethod();
 

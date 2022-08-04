@@ -1,0 +1,9 @@
+[DEBUG]   08/04/22 05:43:07 +05 - Just INFO message --- Location: /home/denis/GitHub/HW06/TestProg/main.c; Function: main-20;
+[INFO]    08/04/22 05:43:07 +05 - Just DEBUG message --- Location: /home/denis/GitHub/HW06/TestProg/main.c; Function: main-21;
+[WARNING] 08/04/22 05:43:07 +05 - Just WARNING message --- Location: /home/denis/GitHub/HW06/TestProg/main.c; Function: main-22;
+[ERROR]   08/04/22 05:43:07 +05 - Just ERROR message --- Location: /home/denis/GitHub/HW06/TestProg/main.c; Function: CallSomeMethod-7;
+               /home/denis/GitHub/HW06/TestProg/bin/Release(+0x1632) [0x555555555632]
+               /home/denis/GitHub/HW06/TestProg/bin/Release(+0x12c5) [0x5555555552c5]
+               /lib/x86_64-linux-gnu/libc.so.6(+0x29d90) [0x7ffff7dadd90]
+               /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80) [0x7ffff7dade40]
+               /home/denis/GitHub/HW06/TestProg/bin/Release(+0x1325) [0x555555555325]
